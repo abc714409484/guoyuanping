@@ -7,4 +7,5 @@ class test_httprequest:
 if __name__ == '__main__':
     url='http://www.baidu.com'
     res=test_httprequest().request_1(url)
+    print(res.cookies)
     print(res.status_code)
